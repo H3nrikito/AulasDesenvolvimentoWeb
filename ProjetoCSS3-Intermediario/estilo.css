@@ -1,0 +1,35 @@
+/* Modelo de caixa
+
+.conteudo{
+    border: 1px solid red;
+ /*   padding-top: 20px; /*padding : aplica um espaçamento no texto ou conteudo da caixa 
+    width: 150px;
+    padding-right: 20px; /*espaçamento a direita
+    padding-bottom: 20px; /*espaçamento inferior 
+    padding-left: 20px; 
+
+  /*  padding: 20px 15px 10px 5px; 
+    padding: 20px; /* aplica o padding em todos os elementos (left, right, top, bottom*/
+
+    /*margin-top: 20px; 
+    /*margin-left: 20px;
+    /*margin-right: 20px; 
+    /*margin-bottom: 20px; 
+    
+    margin: 20px 10px;
+/*Marge collapse - usa a margin maior entre elas - top ou bottom 
+
+} */
+
+/* Noticia */
+
+#noticia{
+    background: #f9f9f9;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+h2{
+    margin: 0px;
+}
+
