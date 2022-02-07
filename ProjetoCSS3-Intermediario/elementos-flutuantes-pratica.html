@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CSS - Elementos Flutuantes na Prática</title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+
+        body{
+            background: #f4f4f4;
+        }
+        #noticias {
+            border: 2px solid red;
+            width: 920px;
+
+        }
+        .noticia{
+            background: #e5e5e5;
+            padding: 5px;
+            width: 280px;
+            margin: 8px;
+            float: left;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        .imagem-galeria{
+            background: white;
+            width: 265px;
+            padding: 5px;
+            float: left;
+            margin: 15px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div id="principal"> <!-- inicio da div principal -->
+
+        <div id="noticias">
+
+            <div class="noticia">
+                <h2>Harry Potter - Wikipédia 1</h2>
+                <p>
+                    Por ser uma série na qual cada livro equivale a 
+                    cerca de um ano de vida do protagonista, seu conteúdo
+                    amadurece conforme Harry cresce.
+                </p>
+                <a href="">Veja mais</a>
+            </div>
+
+            <div class="noticia">
+                <h2>Harry Potter - Wikipédia 2</h2>
+                <p>
+                    Por ser uma série na qual cada livro equivale a 
+                    cerca de um ano de vida do protagonista, seu conteúdo
+                    amadurece conforme Harry cresce.
+                </p>
+                <a href="">Veja mais</a>
+            </div>
+
+            <div class="noticia">
+                <h2>Harry Potter - Wikipédia 3</h2>
+                <p>
+                    Por ser uma série na qual cada livro equivale a 
+                    cerca de um ano de vida do protagonista, seu conteúdo
+                    amadurece conforme Harry cresce.
+                </p>
+                <a href="">Veja mais</a>
+            </div>
+            
+        </div> <!-- fim div noticia-->
+        <div class="clear"></div>
+
+        <div>
+            <div class="imagem-galeria">
+                <img src="imagens/imagem1.png">
+                <p>Resumo imagem 1</p>
+            </div>
+          </div>
+          <div>
+            <div class="imagem-galeria">
+                <img src="imagens/imagem2.png">
+                <p>Resumo imagem 2</p>
+            </div>
+          </div>
+          <div>
+            <div class="imagem-galeria">
+                <img src="imagens/imagem3.png">
+                <p>Resumo imagem 3</p>
+            </div>
+          </div>
+          <div>
+            <div class="imagem-galeria">
+                <img src="imagens/imagem4.png">
+                <p>Resumo imagem 4</p>
+            </div>
+          </div>
+          <div>
+            <div class="imagem-galeria">
+                <img src="imagens/imagem5.png">
+                <p>Resumo imagem 5</p>
+            </div>
+          </div>
+
+
+        
+
+
+    </div> <!-- fim da div principal -->
+
+</div>
+
+</body>
+
+</html>
