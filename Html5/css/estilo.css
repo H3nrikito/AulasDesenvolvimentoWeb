@@ -1,0 +1,24 @@
+*{
+    text-decoration: none;
+       
+}
+
+header{
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #f3f3aa
+}
+
+nav{
+    padding: 10px;
+    border: 1px solid #ccc125;
+    background: #f2f2f2;
+}
+
+footer{
+    background: #ccc;
+    /*text-align: center;*/
+}
+
+
+
