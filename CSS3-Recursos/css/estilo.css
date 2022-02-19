@@ -1,5 +1,21 @@
 /**********************************
-Animações */
+Transições */
+#caixa{
+    background: orange;
+    width: 300px;
+    height: 300px;
+}
+
+#caixa:hover{
+    background: green;
+    width: 500px;
+    /* transition: width 3s, background 3s; */
+    transition: all 5s;
+}
+
+
+/**********************************
+Animações 
 @keyframes animacao-caixa{
     from { 
         background: red;
@@ -25,12 +41,12 @@ Animações */
    /* animation-duration: 5s;
     animation-delay: 2s;
     animation-iteration-count: 2;
-    animation-direction: alternate; */
+    animation-direction: alternate; 
 
     animation: animacao-caixa 3s 1s 2 alternate;
 }
 
-
+*/
 
 /* #caixa{
     width: 300px;
