@@ -20,5 +20,22 @@ footer{
     /*text-align: center;*/
 }
 
+article {
+    background: orange;
+    padding: 10px;
+    margin: 10px 0px;
+}
 
+section{
+ border: 1px dotted #fff;
+}
 
+time{
+    color: blue;
+}
+
+aside {
+    background: #7DDD;
+    padding: 5px;
+    margin: 10px 0px;
+}
